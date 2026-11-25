@@ -12,7 +12,7 @@ const wio=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.tar
 $$('.w').forEach(w=>wio.observe(w));
 // menu tabs
 const data={
-pizza:[["Margherita","Tomato, buffalo mozzarella, basil, olive oil","13.50","img-hero.jpg"],["Diavola","Spicy salami, chili oil, fior di latte","15.90","img-pepperoni.jpg"],["Marinara","Tomato, garlic, oregano, no cheese","10.80","img-dough.jpg"],["Quattro formaggi","Mozzarella, gorgonzola, parmigiano, provola","16.40",""],["Funghi e tartufo","Mushrooms, truffle cream, thyme","17.70",""],["Nduja e miele","Calabrian nduja, hot honey, ricotta","16.90",""]],
+pizza:[["Margherita","Tomato, buffalo mozzarella, basil, olive oil","13.50","6-img-hero.jpg"],["Diavola","Spicy salami, chili oil, fior di latte","15.90","7-img-pepperoni.jpg"],["Marinara","Tomato, garlic, oregano, no cheese","10.80","9-img-dough.jpg"],["Quattro formaggi","Mozzarella, gorgonzola, parmigiano, provola","16.40",""],["Funghi e tartufo","Mushrooms, truffle cream, thyme","17.70",""],["Nduja e miele","Calabrian nduja, hot honey, ricotta","16.90",""]],
 sides:[["Burrata e pomodori","Burrata, slow roasted tomatoes, basil oil","11.30",""],["Fritto misto","Fried zucchini, artichoke, calamari","12.60",""],["Insalata di rucola","Rocket, shaved parmigiano, lemon","8.70",""],["Pane all'aglio","Wood fired garlic bread","6.40",""]],
 dessert:[["Tiramisu","Mascarpone, espresso, cocoa","7.90",""],["Panna cotta","Vanilla bean, berry compote","7.20",""],["Nutella calzone","Baked, dusted with sugar","8.50",""]]};
 const ic='<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3"><circle cx="32" cy="32" r="20"/><circle cx="25" cy="26" r="3"/><circle cx="38" cy="30" r="3"/><circle cx="30" cy="40" r="3"/></svg>';
